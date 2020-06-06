@@ -1,0 +1,28 @@
+.farmer-search-card__component {
+    margin: 16px;
+  
+    .farmer-search-card__field {
+      display: block;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .farmer-search-card__component {
+      .farmer-search-card__form {
+        .farmer-search-card__form__row {
+          display: flex;
+          justify-content: space-between;
+  
+          .farmer-search-card__field {
+            flex-grow: 1;
+            margin: 0 8px;
+          }
+  
+          .farmer-search-card__field--address {
+            flex-grow: 2;
+          }
+        }
+      }
+    }
+  }
+  
