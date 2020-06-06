@@ -1,0 +1,10 @@
+.farmer-search__component {
+    > div {
+        display: flex;
+        justify-content: space-between;
+
+        > .mat-form-field {
+            width: calc(50% - 8px);
+        }
+    }
+}
