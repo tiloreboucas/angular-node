@@ -1,10 +1,14 @@
 .farmer-search__component {
-    > div {
-        display: flex;
-        justify-content: space-between;
+  margin: 16px;
+  
+  .farmer-search__form {
+    .farmer-search__form__row {
+      display: flex;
+      justify-content: space-between;
 
-        > .mat-form-field {
-            width: calc(50% - 8px);
-        }
+      > .mat-form-field {
+        width: calc(50% - 8px);
+      }
     }
+  }
 }
